@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="139.0" prefWidth="228.0"
+	xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8">
+	<children>
+		<Label alignment="CENTER" layoutX="11.0" layoutY="28.0"
+			prefHeight="59.0" prefWidth="207.0" text="삭제하시겠습니까?">
+			<font>
+				<Font size="24.0" />
+			</font>
+		</Label>
+		<Button id="btnNDelete" layoutX="74.0" layoutY="98.0"
+			mnemonicParsing="false" text="삭제" />
+		<Button id="btnNCancel" layoutX="126.0" layoutY="98.0"
+			mnemonicParsing="false" text="취소" />
+	</children>
+</AnchorPane>

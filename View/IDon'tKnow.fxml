@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="135.0" prefWidth="262.0"
+	xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+	<children>
+		<Label alignment="CENTER" contentDisplay="CENTER" layoutX="71.0"
+			layoutY="4.0" prefHeight="34.0" prefWidth="123.0" text="왜 기억이 안나?">
+			<font>
+				<Font size="15.0" />
+			</font>
+		</Label>
+		<TextField id="idkTxtPN" alignment="CENTER_RIGHT"
+			layoutX="24.0" layoutY="38.0" prefHeight="25.0" prefWidth="214.0"
+			promptText="전화번호" />
+		<Label alignment="CENTER" contentDisplay="CENTER" layoutX="26.0"
+			layoutY="63.0" prefHeight="34.0" prefWidth="214.0"
+			text="다음엔 잊으면 안된다! 알겠지?">
+			<font>
+				<Font size="15.0" />
+			</font>
+		</Label>
+		<Button id="idkBtnOk" layoutX="70.0" layoutY="97.0"
+			mnemonicParsing="false" text="확인" />
+		<Button id="idkBtnCancel" layoutX="153.0" layoutY="97.0"
+			mnemonicParsing="false" text="취소" />
+	</children>
+</AnchorPane>

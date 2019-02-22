@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="295.0" prefWidth="326.0"
+	xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+	<children>
+		<Label layoutX="7.0" layoutY="4.0" text="지출수정">
+			<font>
+				<Font size="50.0" />
+			</font>
+		</Label>
+		<TextField id="EOutcomeWon" layoutX="31.0" layoutY="76.0"
+			prefHeight="25.0" prefWidth="122.0" promptText="금액(원)" />
+		<ComboBox id="EOutcomeBiggroup" layoutX="32.0"
+			layoutY="109.0" prefHeight="25.0" prefWidth="122.0" promptText="대분류" />
+		<ComboBox id="EOutcomeSmallgroup" layoutX="182.0"
+			layoutY="109.0" prefHeight="25.0" prefWidth="122.0" promptText="소분류" />
+		<Button id="eoBtnJujang" layoutX="142.0" layoutY="259.0"
+			mnemonicParsing="false" text="수정" />
+		<Button id="eoBtnCancel" layoutX="200.0" layoutY="259.0"
+			mnemonicParsing="false" text="취소" />
+		<ComboBox id="EOutcomePaymentgroup" layoutX="32.0"
+			layoutY="175.0" prefHeight="25.0" prefWidth="80.0" promptText="결제" />
+		<TextField id="EOutcomeContent" layoutX="32.0"
+			layoutY="220.0" prefHeight="25.0" prefWidth="274.0" promptText="내용" />
+		<TextField id="EOutcomeT1" layoutX="206.0" layoutY="76.0"
+			prefHeight="25.0" prefWidth="29.0" promptText="시" />
+		<TextField id="EOutcomeT2" layoutX="247.0" layoutY="76.0"
+			prefHeight="25.0" prefWidth="29.0" promptText="분" />
+		<Label layoutX="239.0" layoutY="80.0" text=":" />
+		<Button id="btnEoutcomeClear" layoutX="72.0" layoutY="259.0"
+			mnemonicParsing="false" text="초기화" />
+	</children>
+</AnchorPane>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="500.0" prefWidth="500.0"
+	xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+	<children>
+		<TabPane layoutX="7.0" layoutY="40.0" prefHeight="416.0"
+			prefWidth="490.0" tabClosingPolicy="UNAVAILABLE">
+			<tabs>
+				<Tab text="월별">
+					<content>
+						<AnchorPane minHeight="0.0" minWidth="0.0"
+							prefHeight="340.0" prefWidth="490.0">
+							<children>
+								<Button id="chartIn" layoutX="14.0" layoutY="14.0"
+									mnemonicParsing="false" text="수입" />
+								<Button id="chartOut" layoutX="62.0" layoutY="14.0"
+									mnemonicParsing="false" text="지출" />
+								<Button id="chartInOut" layoutX="110.0" layoutY="14.0"
+									mnemonicParsing="false" text="수입-지출" />
+
+								<PieChart id="chartM" layoutX="8.0" layoutY="39.0"
+									prefHeight="342.0" prefWidth="479.0" />
+
+							</children>
+						</AnchorPane>
+					</content>
+				</Tab>
+				<Tab text="분류별">
+					<content>
+						<AnchorPane minHeight="0.0" minWidth="0.0"
+							prefHeight="180.0" prefWidth="200.0">
+							<children>
+								<PieChart id="chartC" layoutX="4.0" layoutY="45.0"
+									prefHeight="332.0" prefWidth="479.0" />
+								<Button id="chart2in" layoutX="14.0" layoutY="14.0"
+									mnemonicParsing="false" text="수입" />
+								<Button id="chart2out" layoutX="62.0" layoutY="14.0"
+									mnemonicParsing="false" text="지출" />
+							</children>
+						</AnchorPane>
+					</content>
+				</Tab>
+				<Tab text="결제수단별">
+					<content>
+						<AnchorPane minHeight="0.0" minWidth="0.0"
+							prefHeight="180.0" prefWidth="200.0">
+							<children>
+								<PieChart id="chartP" layoutX="10.0" layoutY="5.0"
+									prefHeight="374.0" prefWidth="476.0" />
+								<Button id="chart3in" layoutX="14.0" layoutY="14.0"
+									mnemonicParsing="false" text="수입" />
+								<Button id="chart3out" layoutX="62.0" layoutY="14.0"
+									mnemonicParsing="false" text="지출" />
+							</children>
+						</AnchorPane>
+					</content>
+				</Tab>
+			</tabs>
+		</TabPane>
+		<ComboBox id="cmbYearGroup" layoutX="7.0" layoutY="7.0"
+			prefHeight="25.0" prefWidth="113.0" promptText="년도" />
+		<Button id="pieBtnClose" layoutX="232.0" layoutY="461.0"
+			mnemonicParsing="false" text="닫기" />
+	</children>
+</AnchorPane>
