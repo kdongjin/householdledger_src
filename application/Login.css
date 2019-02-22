@@ -1,0 +1,42 @@
+AnchorPane {
+	-fx-background-image: url("../images/fire.gif");
+}
+Label {
+
+	-fx-font-weight: null;
+	-fx-text-fill: #ffffff;
+	-fx-cursor: hand;
+	-fx-opacity: 0.8;
+}
+
+Button {
+	-fx-font-size: 12.0;
+	-fx-font-weight: null;
+	-fx-background-color: #ffffff;
+	-fx-text-fill: #000000;
+	-fx-cursor: hand;
+	-fx-opacity: 0.8;
+}
+
+Button:hover {
+	-fx-font-size: 12.0;
+	-fx-font-weight: bold;
+	-fx-background-color: #FFE400;
+	-fx-text-fill: #000000;
+}
+
+TextField, PasswordField {
+	-fx-background-color: #FFE400;
+	-fx-font-size: 12.0;
+	-fx-background-radius: 0.0;
+	-fx-opacity: 0.5;
+	-fx-font-color: #FFE400;
+}
+
+TextField:focused, PasswordField:focused {
+	-fx-background-color: white;
+	-fx-font-size: 12.0;
+	-fx-background-radius: 0.0;
+	-fx-opacity: 1.0;
+	-fx-text-fill: black;
+}
